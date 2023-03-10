@@ -16,13 +16,12 @@
     justify-self: center;
 }
 .footer_box_img{
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 20px;
+
     
 }
 .footer_box img {
   width: 100%;
+  border-radius: 20px;
 }
 
 .footer_box ul{

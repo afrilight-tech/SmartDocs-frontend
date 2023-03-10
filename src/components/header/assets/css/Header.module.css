@@ -129,7 +129,7 @@
     padding: 10px 22px;
     border-radius: 20px;
     color: white;
-    background-image: linear-gradient(to left, #6BABDE, #244B70);
+    background: #244B70;
     border: none;
     outline: none;
     font-size: 12px;
@@ -186,7 +186,7 @@
     }
 
     .logo img {
-        height: 50px;
+        height: 55px;
     }
 
 
@@ -276,7 +276,7 @@
         padding: 10px 22px;
         border-radius: 20px;
         color: white;
-        background-image: linear-gradient(to left, #6BABDE, #244B70);
+        background: #244B70;
         border: none;
         outline: none;
         font-size: 11px;
@@ -301,7 +301,7 @@
     }
 
     .sm_cntrl .cntrl {
-        background-image: linear-gradient(to left, #6BABDE, #244B70);
+        background: #244B70;
         font-size: 23px;
         cursor: pointer;
         color: white;
