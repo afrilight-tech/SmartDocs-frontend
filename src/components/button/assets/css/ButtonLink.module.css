@@ -2,7 +2,7 @@
     padding: 12px 24px;
     border-radius: 20px;
     color: white;
-    background: #244B70;
+    background-image: linear-gradient(to left,#6BABDE, #244B70);
     border: none;
     outline: none;
     font-size: 13px;
@@ -10,6 +10,6 @@
 }
 
 .ButtonLink .ButtonLinkTo button:hover {
-    box-shadow: inset 200px 0 0 0 #6BABDE;
+    box-shadow: inset 200px 0 0 0 #244B70;
     transition: ease-in 0.5s;
 }

@@ -1,0 +1,54 @@
+.SectionTwo{
+    display: grid;
+margin-top: 100px;
+    height: fit-content;
+}
+
+
+
+.SectionTwoInner{
+display: grid;
+grid-template-columns: 1fr 1.2fr;
+align-items: center;
+}
+
+.SectionTwo .SectionTwoInner .SectionTwoBox{
+    width: 80%;
+    justify-self: center;   
+}
+
+.SectionTwoBox h3{
+ background-image: linear-gradient(to left,#6BABDE, #244B70);
+ -webkit-text-fill-color: transparent;
+ -webkit-background-clip: text;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px){
+    .SectionTwo{
+      margin-top: 50px;
+    }
+    
+    .SectionTwo .SectionTwoInner{
+        grid-template-columns: 1fr;
+    }
+
+    .SectionTwo .SectionTwoInner .SectionTwoBox{
+        width: 80%;
+        justify-self: center;
+        margin: 10px 0px;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 538px){
+    
+  }

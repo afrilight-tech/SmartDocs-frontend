@@ -1,0 +1,27 @@
+.Arrow{
+    display: flex;
+    flex-direction: column;
+     width: 80%;
+     justify-self: center;
+     align-items: center;
+     place-items: center;
+     position: relative;
+     margin: 10px 0px;
+ }
+
+ .Arrow hr{
+    width: 2px;
+     height: 100px;
+     border-left: 1px solid #063fa3 !important;
+     border-right: 1px solid #063fa3 !important;
+     border-bottom: none !important;
+     border-top: none !important;
+     position: absolute;
+     top: 0;
+ }
+ 
+ .Arrow .StepArrow{
+     font-size: 20px;
+     color: #063fa3;
+     margin-top: 110px;
+ }

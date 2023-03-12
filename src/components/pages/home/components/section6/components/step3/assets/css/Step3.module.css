@@ -1,0 +1,70 @@
+.StepThree{
+    display: grid;
+    position: relative;
+    height: fit-content;
+}
+
+.StepThreeIntro{
+    width: 90%;
+    justify-self: center;
+}
+
+.StepThreeIntro h4{
+    font-size: 25px;
+    background-image: linear-gradient(to left, #6BABDE, #244B70);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-align: center;
+}
+
+
+.StepThree .StepThreeInner{
+display: grid;
+grid-template-columns: 1fr 1fr;
+align-items: center;
+}
+
+.StepThree .StepThreeInner .StepThreeBox{
+    width: 80%;
+    justify-self: center;
+  
+   
+}
+
+.StepThree .StepThreeBox h3{
+ margin-bottom: 10px;
+}
+
+
+.StepThree .StepThreeInner .StepThreeBox img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px){
+
+    .StepThree .StepThreeInner{
+        grid-template-columns: 1fr;
+    }
+
+    .StepThree .StepThreeInner .StepThreeBox{
+        width: 80%;
+        justify-self: center;
+        margin: 20px 0px;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 538px){
+    .StepThreeText .StepThreeTextInner{
+        text-align: start;
+    }
+  }
