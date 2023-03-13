@@ -13,7 +13,7 @@
 }
 
 .formSentIcon {
-    background: linear-gradient(to right, #00B0EA, #2F338D);
+    background-image: linear-gradient(to left,#6BABDE, #244B70);
     padding: 30px;
     border-radius: 50%;
     font-size: 50px;

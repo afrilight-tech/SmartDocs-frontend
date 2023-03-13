@@ -3,7 +3,7 @@
 }
 
 .footer_inner {
-    background:  #2F338D;
+    background:  #EFEFFA;
     padding: 50px 0px;
     display: grid;
     grid-template-columns: 1.5fr 1fr 1fr 1.5fr;
@@ -30,13 +30,13 @@
 }
 
 .footer_box h3{
-    color: #00B0EA;
+color: #244B70;
     font-size: 20px;
     font-weight: 400;
 }
 
 .footer_box p{
-    color: white;
+    color: #213547;
     margin: 10px 0px;
     font-size: 14px !important;
     font-family: 'Mulish', serif;
@@ -44,13 +44,13 @@
     align-items: center;
 }
 .footer_box a{
-    color: white;
+    color: #213547;
     font-size: 14px;
     font-family: 'Mulish', serif;
 }
 
 .footer_box li{
-    color: white;
+    color: #213547;
     margin: 10px 0px;
     font-size: 14px;
     font-family: 'Mulish', serif;
@@ -64,7 +64,7 @@
     bottom: 0;
     left: 0;
     width: 100%;
-    border-bottom: 1px solid #00B0EA;
+    border-bottom: 1px solid #6BABDE;
     border-radius: 40px;
     transform: scaleX(0);
     transition: all 0.3s ease-out;
@@ -76,16 +76,17 @@
 
 
 .footer_box p:hover, .footer_box li:hover, .footer_box a:hover{
-    color: #00B0EA;
+    color: #6BABDE;
 }
 
 .footer p .footerIcon{
     margin-right: 5px;
-color: #00B0EA;
+color: #244B70;
+
 }
 
 .footer .copywright{
-background-color:white ;
+    background:  #EFEFFA;
 }
 
 .footer .copywright hr{
@@ -93,8 +94,9 @@ background-color:white ;
     border: none;
 }
 .footer .copywright p{
-    color: #2F338D;
-    margin: 5px 0px;
+    color: #244B70;
+    margin: 0px 0px;
+    padding: 5px 0px;
     font-size: 12px !important;
     font-family: 'Mulish', serif; 
     text-align: center;

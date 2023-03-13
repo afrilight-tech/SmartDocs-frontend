@@ -122,7 +122,7 @@ function ContactForm() {
 
                     <div className={style.contactOptionsIntro}>
                         <h3>Need Some <span>Assistance?</span></h3>
-                        <Line />
+  
                         <p>Kindly fill the form to  report a problem or ask a question, you can also visit us at our office, or contact us directly using the details below</p>
                     </div>
 

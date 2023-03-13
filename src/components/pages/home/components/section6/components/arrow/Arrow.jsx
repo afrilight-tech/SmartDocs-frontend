@@ -4,7 +4,7 @@ function Arrow (){
     return(
 
         <div className={style.Arrow} data-aos="fade-up" data-aos-duration="1200">
-        <hr />
+        <hr data-aos="fade-up" data-aos-duration="1200" />
         <FaAngleDoubleDown className={style.StepArrow} data-aos="fade-up" data-aos-duration="1200"/>
         </div>
 

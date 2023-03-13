@@ -17,7 +17,7 @@ function SectionSix() {
 
             <div className={style.SectionSixInner}>
 
-                <div className={style.SectionSixBox} id={style.text} data-aos="fade-left" data-aos-duration="1200">
+                <div className={style.SectionSixBox} id={style.text} data-aos="fade-up" data-aos-duration="1200">
                     <h3>How SmartDocs Works</h3>
                     <p>In the SmartDocs Platform, Smart documents are created with conditional logic functionality and connected data sources. Data connected templates create personalized output tailored for your recipients.</p>
 

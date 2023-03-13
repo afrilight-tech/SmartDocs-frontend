@@ -4,6 +4,7 @@ import ContactHero from "./components/hero/ContactHero";
 import ContactForm from "./components/form/ContactForm";
 import { useEffect } from "react";
 import { Helmet } from "react-helmet-async";
+import NextToFooter from "../../next-to-footer/NextToFooter";
 
 
 function Contact() {
@@ -28,6 +29,8 @@ function Contact() {
 
 
                 <ContactForm />
+
+                <NextToFooter/>
 
             </div>
 

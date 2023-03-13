@@ -2,8 +2,8 @@
     display: grid;
     height: fit-content;
     padding: 100px 0px;
-background-color: #FFFFFF;
-  
+    background:  #EFEFFA;
+  margin-top: 100px;
 }
 
 
@@ -44,6 +44,7 @@ background-color: #FFFFFF;
 @media screen and (max-width:768px) {
     .NextToFooter {
         padding: 50px 0px;
+        margin-top: 50px;
     }
 
     .NextToFooter .NextToFooterInner {

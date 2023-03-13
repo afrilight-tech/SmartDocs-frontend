@@ -7,9 +7,9 @@ margin-top: 100px;
         background-size: cover;
         background-position: center center;
         background-repeat: repeat;
-        background-color: #ffffff;
-        padding: 80px 0px;
-      
+        background-color: #f8f8fcb7;
+        padding: 100px 0px;
+      border-radius: 0px 0px 100px 100px;
 }
 
 .SectionThreeIntro h3{
@@ -63,7 +63,7 @@ align-items: center;
 @media screen and (max-width:768px){
     .SectionThree{
       margin-top: 50px;
-      padding:50px 0px;
+      padding:70px 0px;
     }
     
     .SectionThree .SectionThreeInner{

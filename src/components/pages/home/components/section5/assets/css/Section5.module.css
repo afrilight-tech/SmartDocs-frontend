@@ -23,6 +23,10 @@
     -webkit-background-clip: text;
 }
 
+.SectionFiveBoxLink{
+    display: grid;
+}
+
 .SectionFiveBox h4 {
     display: flex;
     align-items: center;
@@ -30,12 +34,18 @@
     background-image: linear-gradient(to left, #6BABDE, #244B70);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    padding: 10px 20px;
+    border: dashed 1px #244B70;
+justify-self: center;
 }
 
 .SectionFiveBoxIcon {
     font-size: 20px;
     margin-top: 5px;
     margin-left: 5px;
+    background-image: linear-gradient(to left, #6BABDE, #244B70);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 
 
@@ -61,8 +71,10 @@
         text-align: start;
     }
 
+
     .SectionFiveBox h4 {
         justify-content: start;
+        justify-self: start;
     }
 }
 
