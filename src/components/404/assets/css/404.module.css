@@ -1,8 +1,5 @@
 .NotFound{
     padding: 100PX 0px;
-    background-image: url(../images/404-image.png);
-    background-position: center;
-    background-attachment: fixed;
     display: grid;
     place-content: center;
 }
@@ -20,17 +17,12 @@ padding: 5px;
 
 .NotFoundBox h3 {
     font-size: 35px;
-    color: #2F338D;
     margin: 0;
     text-align: center;
-    /* -webkit-text-fill-color: transparent;
-   -webkit-background-clip: text; */
+    background-image: linear-gradient(to left, #6BABDE, #244B70);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
     font-family: 'Mulish', serif;
-}
-
-.NotFoundBox h3 span {
-    color: #00B0EA;
-  
 }
 
 

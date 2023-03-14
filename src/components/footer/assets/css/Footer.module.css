@@ -3,7 +3,7 @@
 }
 
 .footer_inner {
-    background:  #EFEFFA;
+    background: #f8f8fcb7 ;
     padding: 50px 0px;
     display: grid;
     grid-template-columns: 1.5fr 1fr 1fr 1.5fr;

@@ -23,7 +23,7 @@ function SectionFour() {
                     <p>In addition to its advanced document automation features, SmartDocs also includes a built-in e-signature solution that allows users to send documents for signature capture directly from within the application.</p>
                     <p>With SmartDocs, users can select the document that needs to be signed, specify the recipient(s), and then send the document via email. The recipient(s) can then sign the document electronically using a mouse, touchpad, or other device, and then return the signed document to the sender.</p>
                     <p>This e-signature feature is fully compliant with industry standards and regulations and provides a secure and convenient way to capture signatures without the need for printing and scanning documents. </p>
-                    <ButtonLink to={''} text='Get Started' />
+                    <ButtonLink to={'/contact'} text='Get Started' />
                 </div>
 
             </div>

@@ -9,7 +9,7 @@
     margin: 0;
     display: grid;
     width: 100%;
-    background: #FFFFFF;
+    background-color: #ffffff;
     position: fixed;
     top: 0;
     z-index: 990;
@@ -81,20 +81,25 @@
     cursor: pointer;
 }
 
+#active{
+    position: relative;
+    color: #213547;
+    font-size: 15px;
 
-#active {
-    border-bottom: 4px solid #244B70;
+    padding: 5px 0px;
 }
 
-.menu ul.menu_links .router_link::after {
-    content: "";
+
+
+#active::before {
+    content: "•";
     position: absolute;
+    margin:-10px 45%;
     bottom: 0;
     left: 0;
-    width: 100%;
-    border-bottom: 4px solid #244B70;
-    border-radius: 40px;
-    transform: scaleX(0);
+    width:fit-content;
+    
+    transform: scaleX(1);
     transition: all 0.3s ease-out;
 }
 
@@ -128,21 +133,6 @@
 }
 
 
-.menu ul.menu_links li button {
-    padding: 10px 22px;
-    border-radius: 20px;
-    color: white;
-    background-image: linear-gradient(to left,#6BABDE, #244B70);
-    border: none;
-    outline: none;
-    font-size: 12px;
-    cursor: pointer;
-}
-
-.menu ul.menu_links li button:hover {
-    box-shadow: inset 200px 0 0 0 #244B70;
-    transition: ease-in 0.5s;
-}
 
 
 
@@ -206,10 +196,10 @@
     /* menu that displays on small screen */
     .sm_menu {
         width: 100%;
-        margin-top: 50px;
+        margin-top: 60px;
         
         width: 100%;
-        background-image: url(../images/background.png);
+        background: #ffffff;
      
         top: 0;
         left: 0;
@@ -220,6 +210,9 @@
         height: 100vh;
     }
 
+    .sm_menu.removing {
+        animation-direction: reverse;
+      }
 
     /* animation that zooms out the navigation menu on small screen */
     @keyframes zoom-in-zoom-out {
@@ -245,16 +238,6 @@
         position: relative;
     }
 
-    .sm_menu ul.menu_links .router_link#button {
-        -webkit-text-fill-color: unset;
-        -webkit-background-clip: unset;
-        background-image: none;
-    }
-
-    .sm_menu ul.menu_links .router_link:hover {
-        color: #244B70;
-        transition: 0.5s linear;
-    }
 
 
 
@@ -271,29 +254,6 @@
     }
 
 
-    .sm_menu ul.menu_links li.button {
-        grid-row: 6;
-        border: none;
-    }
-
-
-    .sm_menu ul.menu_links li button {
-        padding: 10px 22px;
-        border-radius: 20px;
-        color: white;
-        background-image: linear-gradient(to left,#6BABDE, #244B70);
-        border: none;
-        outline: none;
-        font-size: 11px;
-        cursor: pointer;
-
-    }
-
-
-    .sm_menu ul.menu_links li button:hover {
-        box-shadow: inset 200px 0 0 0 #244B70;
-        transition: ease-in 0.5s;
-    }
 
 
 

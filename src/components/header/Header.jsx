@@ -7,6 +7,7 @@ import { FaSearch, FaRegTimesCircle } from "react-icons/fa";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import logo from './assets/images/smartdocs-logo.png'
+import ButtonLink from "../button/ButtonLink";
 
 function Header() {
 
@@ -17,12 +18,6 @@ function Header() {
     }, []);
 
     const location = useLocation();
-
-    const activeLinkStyle = {
-        borderBottom: '2px solid #00B0EA',
-    };
-
-
 
     // this sets a default state for the navigation bar on small screen
     const [isNavExpanded, setIsNavExpanded] = useState(false)
@@ -68,15 +63,17 @@ function Header() {
 
 
                 {/* menu: on large screen classname is menu, and once the nav is expanded on small screen the classname changes to sm_menu */}
-                <div className={isNavExpanded ? style.sm_menu : style.menu}>
+                <div className={isNavExpanded ? style.sm_menu  : style.menu}>
                     <ul className={style.menu_links}>
 
 
 
+                        <li className={style.menu_item}><Link onClick={close}
+                            to="/" className={style.router_link} id={location.pathname === "/" ? style.active : style.none}>Home</Link></li>
 
 
                         <li className={style.menu_item}><Link onClick={close}
-                            to="/mobile-invoicing" className={style.router_link} id={location.pathname === "/solutions" ? style.active : style.none}>Solutions</Link></li>
+                            to="/solutions" className={style.router_link} id={location.pathname === "/solutions" ? style.active : style.none}>Solutions</Link></li>
 
                         <li className={style.menu_item}><Link activeClass="active" onClick={close}
                             to="/pricing" className={style.router_link} id={location.pathname === "/pricing" ? style.active : style.none}>Pricing</Link></li>
@@ -88,16 +85,9 @@ function Header() {
                         <li className={style.menu_item}><Link activeClass="active" onClick={close}
                             to="/help" className={style.router_link} id={location.pathname === "/help" ? style.active : style.none}>Help</Link></li>
 
-                        <li className={style.menu_item}><Link onClick={close}
-                            to="https://blog.smatforms.ng" target={"_blank"} className={style.router_link}>Case Studies</Link></li>
-
-
-                        <li className={style.menu_item}><Link activeClass="active" onClick={close}
-                            to={'https://naija.smatforms.com/'} target={"_blank"} className={style.router_link} id={style.button}><button>Dashboard Login</button> </Link></li>
-
-
-                        <li className={style.menu_item}><Link activeClass="active" onClick={close}
-                            to="/contact" className={style.router_link} id={style.button}><button>Get In Touch</button> </Link></li>
+                        <li className={style.menu_item}>
+                            <ButtonLink to={'/contact'} text={'Get Staarted'}/>
+                        </li>
                     </ul>
 
                 </div>
@@ -108,8 +98,10 @@ function Header() {
                     {!isNavExpanded ?
                         <HiBars3BottomRight className={style.cntrl} onClick={() =>
                             setIsNavExpanded(!isNavExpanded)
-                        } /> : <FaRegTimesCircle className={style.cntrl} onClick={() =>
-                            setIsNavExpanded(!isNavExpanded)
+                        } /> : <FaRegTimesCircle className={style.cntrl} onClick={() => {
+                            setIsNavExpanded(!isNavExpanded);
+                            document.querySelector('.sm_menu').classList.add('.removing');
+                        }
                         } />
                     }
                 </div>

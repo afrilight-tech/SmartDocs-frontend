@@ -105,9 +105,19 @@ align-items: center;
 }
 
 
+@media screen and (max-width:538px){
+    .SectionOneImageText .SectionOneImageTextInner{
+        grid-template-columns: 1fr;
+    }
+
+
+    
+}
+
+
 
 @media screen and (max-width: 538px){
-    .SectionOneText .SectionOneTextInner{
-        text-align: start;
+    .SectionOneImage{
+        padding: 40px 0px;
     }
   }

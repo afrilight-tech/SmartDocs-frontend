@@ -1,0 +1,81 @@
+.PricingWriteUp {
+    display: grid;
+    padding: 50px 0px;
+}
+
+.PricingWriteUpIntro {
+    display: grid;
+    justify-self: center;
+}
+
+.PricingWriteUpIntro h3 {
+    background-image: linear-gradient(to left, #6BABDE, #244B70);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.PricingWriteUpIntro h3 span{
+    color: #00B0EA;
+}
+
+
+.PricingWriteUpBox {
+    width: 90%;
+    justify-self: center;
+}
+
+.PricingWriteUpBox p {
+font-size: 15px;
+}
+
+
+
+
+
+
+.PricingWriteUpBoxLink{
+    display: grid;
+}
+
+.PricingWriteUpBox h4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to left, #6BABDE, #244B70);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    padding: 10px 20px;
+    border: dashed 1px #244B70;
+    justify-self: start;
+}
+
+.PricingWriteUpBoxIcon {
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 5px;
+    background-image: linear-gradient(to left, #6BABDE, #244B70);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+    .PricingWriteUpIntro h3{
+        font-size: 30px;
+    }
+}
+
+
+@media screen and (max-width:539px) {
+    .PricingWriteUpIntro h3 {
+        font-size: 26px;
+    }
+}

@@ -6,6 +6,9 @@ import Footer from './components/footer/Footer';
 import NotFound from './components/404/404';
 import Home from './components/pages/home/Home';
 import Contact from './components/pages/contact/Contact';
+import AboutUs from './components/pages/about-us/AboutUs';
+import NextToFooter from './components/next-to-footer/NextToFooter';
+import Pricing from './components/pages/pricing/Pricing';
 
 function App() {
 
@@ -34,7 +37,8 @@ function App() {
 
         <Route path='/' element={<Home />} />
 
-
+        {/* about-us */}
+        <Route path='/about-us' element={<AboutUs />} />
 
 
 
@@ -44,16 +48,21 @@ function App() {
         {/* 404 */}
         <Route path='*' element={<NotFound />} />
 
-      
-      
-      
+
+        {/* pricing */}
+        <Route path='/pricing' element={<Pricing />} />
+
+
+
+
       </Routes>
 
 
 
 
 
-
+      {/* next-to-footer */}
+      <NextToFooter />
 
       {/* footer */}
       <Footer />

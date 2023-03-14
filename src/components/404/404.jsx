@@ -3,6 +3,7 @@ import NotFoundImage from './assets/images/not-found.png'
 import Line from '../line/Line'
 import { Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet-async'
+import ButtonLink from '../button/ButtonLink'
 function NotFound() {
 
 
@@ -18,7 +19,7 @@ function NotFound() {
                     <img src={NotFoundImage} alt="Not Found" />
                     <h3>Not Fo<span>und!</span></h3>
                     <p>The page you requested cannot be found on this server.</p>
-                    <Link to={'/'} className={style.NotFoundLink}><button>See Home Page</button></Link>
+                    <ButtonLink text={'See Homepage'} to={'/'} />
                 </div>
             </div>
         </>

@@ -42,8 +42,6 @@ function Home() {
                 <SectionFive />
 
                 <SectionSix/>
-
-                <NextToFooter/>
             </div>
 
 

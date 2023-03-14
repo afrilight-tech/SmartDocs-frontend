@@ -30,8 +30,6 @@ function Contact() {
 
                 <ContactForm />
 
-                <NextToFooter/>
-
             </div>
 
         </>

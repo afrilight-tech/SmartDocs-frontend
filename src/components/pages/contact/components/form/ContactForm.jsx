@@ -121,9 +121,9 @@ function ContactForm() {
                 <div className={style.contactOptions} data-aos="fade-right" data-aos-duration="1200">
 
                     <div className={style.contactOptionsIntro}>
-                        <h3>Need Some <span>Assistance?</span></h3>
+                        <h3>Want To Get Started?</h3>
   
-                        <p>Kindly fill the form to  report a problem or ask a question, you can also visit us at our office, or contact us directly using the details below</p>
+                        <p>Kindly fill the form to  request a demo, report a problem, or ask a question, you can also visit us at our office, or contact us directly using the details below</p>
                     </div>
 
                     <div className={style.contactDetails}>
