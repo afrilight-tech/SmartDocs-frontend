@@ -9,6 +9,7 @@ import Contact from './components/pages/contact/Contact';
 import AboutUs from './components/pages/about-us/AboutUs';
 import NextToFooter from './components/next-to-footer/NextToFooter';
 import Pricing from './components/pages/pricing/Pricing';
+import Help from './components/pages/help/Help';
 
 function App() {
 
@@ -51,6 +52,10 @@ function App() {
 
         {/* pricing */}
         <Route path='/pricing' element={<Pricing />} />
+
+
+        {/* pricing */}
+        <Route path='/help' element={<Help />} />
 
 
 

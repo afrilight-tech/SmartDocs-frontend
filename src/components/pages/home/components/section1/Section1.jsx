@@ -24,7 +24,7 @@ function SectionOne() {
                 <div className={style.SectionOneImageTextInner}>
 
                     <div className={style.SectionOneImageTextBox} id={style.text} data-aos="fade-right" data-aos-duration="1200">
-                        <h3>Reduce <span>Compl</span>iance <span>Risk</span> and <br /> Save <span>Time</span>   With <span>SmartDocs</span> <br/> Document  Automation <br /> <span>Solution</span>.</h3>
+                        <h3>Reduce <span>Compl</span>iance <span>Risk</span> And <br /> Save <span>Time</span>   With <span>SmartDocs</span> <br/> Document  Automation <br /> <span>Solution</span>.</h3>
                         <ButtonLink to={'/about-us'} text='Explore More' /> 
                     </div>
 

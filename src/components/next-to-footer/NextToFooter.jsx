@@ -14,8 +14,8 @@ function NextToFooter() {
             <div className={style.NextToFooterInner}>
 
                 <div className={style.NextToFooterBox} data-aos="fade-up" data-aos-duration="1200">
-            <h4>Reduce Compliance risk, eliminate errors, save time and Money with SmartDocs Solution.</h4>
-            <ButtonLink to={'/contact'} text={'Get Started'}/>
+            <h4>Reduce Compliance Risk, Eliminate Errors, Save Time And Money With SmartDocs Solution.</h4>
+            <ButtonLink to={'/contact'} text={'Get In Touch'}/>
             </div>
 
             </div>
