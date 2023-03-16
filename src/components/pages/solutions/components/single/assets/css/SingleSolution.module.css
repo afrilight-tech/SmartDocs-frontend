@@ -1,0 +1,85 @@
+.SingleSolution{
+    display: grid;
+    padding: 120px 0px;
+}
+
+.SingleSolutionInner{
+    width: 95%;
+    justify-self: center;
+    display: grid;
+
+}
+
+.SingleSolutionBox{
+    width: 80%;
+    justify-self: center;
+    margin: 20px 0px;
+    display: grid;
+    background:   #f8f8fcb7;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.SingleSolutionBox h3{
+    background-image: linear-gradient(to left, #6BABDE, #244B70);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    margin-bottom: 20px;
+}
+
+.SingleSolutionBox p{
+    white-space: pre-line;
+    margin: 5px 0px;
+}
+
+.SingleSolutionBox img{
+ width: 70%;
+    margin-bottom: 20px;
+    max-height: 400px;
+}
+
+
+
+
+
+.SingleSolutionBoxLink{
+    display: grid;
+}
+
+.SingleSolutionBox h4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to left, #6BABDE, #244B70);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    padding: 10px 20px;
+    border: dashed 1px #244B70;
+    justify-self: start;
+}
+
+.SingleSolutionBoxIcon {
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 5px;
+    background-image: linear-gradient(to left, #6BABDE, #244B70);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+
+
+
+@media screen and (max-width:768px){
+    .SingleSolution{
+        padding-bottom: 0px;
+    }
+
+    .SingleSolutionInner{
+        width: 100%;
+    }
+    .SingleSolutionBox img{
+        width: 90%;
+       }
+}

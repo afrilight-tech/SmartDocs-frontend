@@ -52,11 +52,10 @@ function Header() {
     return (
 
         // header
-        <div className={style.header} id="header" data-aos="fade-right" data-aos-duration="1200">
+        <div className={style.header} id="header">
             <div className={style.header_inner} >
                 <div className={style.logo}>
                     <Link to="/" onClick={close}>
-                        {/* <h3 id="logotext">SMATFORMS.</h3>  */}
                         <img src={logo} alt="" />
                     </Link>
                 </div>
@@ -73,7 +72,7 @@ function Header() {
 
 
                         <li className={style.menu_item}><Link onClick={close}
-                            to="/solutions" className={style.router_link} id={location.pathname === "/solutions" ? style.active : style.none}>Solutions</Link></li>
+                            to="/solutions" className={style.router_link} id={location.pathname.includes ("/solutions") ? style.active : style.none}>Solutions</Link></li>
 
                         <li className={style.menu_item}><Link activeClass="active" onClick={close}
                             to="/pricing" className={style.router_link} id={location.pathname === "/pricing" ? style.active : style.none}>Pricing</Link></li>
@@ -85,8 +84,8 @@ function Header() {
                         <li className={style.menu_item}><Link activeClass="active" onClick={close}
                             to="/help" className={style.router_link} id={location.pathname === "/help" ? style.active : style.none}>Help</Link></li>
 
-                        <li className={style.menu_item}>
-                            <ButtonLink to={'/contact'} text={'Get Staarted'}/>
+                        <li className={style.menu_item} id={location.pathname === "/contact" ? style.active : style.none}>
+                            <ButtonLink to={'/contact'} text={'Get Started'}/>
                         </li>
                     </ul>
 

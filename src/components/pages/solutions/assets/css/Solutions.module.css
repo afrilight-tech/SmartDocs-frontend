@@ -1,0 +1,10 @@
+.Solutions {
+    padding: 120px 0px;
+}
+
+
+@media screen and (max-width:768px){
+    .Solutions{
+        padding-bottom: 50px;
+    }
+}

@@ -28,8 +28,8 @@ function Footer() {
                     <ul>
                         <Link to={'/'}><li >Home</li></Link>
                         <Link to={'/help'}><li >Help</li></Link>
-                        <Link to={'/pricing'}><li >Plans & Pricing</li></Link>
-                        <Link to={'/mobile-invoicing'}><li >Mobile Invoicing</li></Link>
+                        <Link to={'/pricing'}><li >Pricing</li></Link>
+                        <Link to={'/mobile-invoicing'}><li >Solutions</li></Link>
 
                     </ul>
                 </div>
@@ -39,10 +39,7 @@ function Footer() {
                     <ul>
                         <Link to={'/about-us'}><li >About Us</li></Link>
                         <Link to={'/contact'}><li >Get In Touch</li></Link>
-                        <Link to={'https://naija.smatforms.com/'} target={'_blank'}><li >Dashboard Login</li></Link>
-                        <Link to={'https://play.google.com/store/apps/details?id=ng.smatforms'} target={'_blank'}><li >Play Store Download</li></Link>
-                        <Link to={'https://apps.apple.com/app/id1356566395'} target={'_blank'}><li >App Store Download</li></Link>
-
+                        <Link to={'https://afrilight.tech/'} target={'_blank'}><li >Afrilight Website</li></Link>
                     </ul>
                 </div>
 
@@ -56,8 +53,7 @@ function Footer() {
             </div>
 
             <div className={style.copywright}>
-
-                <p >Copyright &#169;{currentYear} Smatforms. All Rights Reserved.</p>
+                <p >Copyright &#169;{currentYear} SmartDocs. All Rights Reserved.</p>
             </div>
         </div>
     )

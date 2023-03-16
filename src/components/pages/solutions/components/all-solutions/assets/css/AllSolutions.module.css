@@ -1,0 +1,86 @@
+.AllSolutions{
+    display: grid;
+}
+
+.AllSolutionsIntro{
+    width: 88%;
+    justify-self: center;
+}
+
+.AllSolutionsIntro h4{
+font-size: 25px;
+background-image: linear-gradient(to left, #6BABDE, #244B70);
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+}
+
+.AllSolutionsInner{
+    width: 95%;
+    justify-self: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.AllSolutionsBox{
+    width: 80%;
+    justify-self: center;
+    margin: 20px 0px;
+    display: grid;
+    background:   #f8f8fcb7;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    border: #6baade2f 1px solid;
+    cursor: pointer;
+}
+
+.AllSolutionsBox p{
+    white-space: pre-line;
+    margin-left: 5px;
+}
+
+.AllSolutionsBox button{
+    margin-left: 5px;
+}
+
+.AllSolutionsBox h4{
+    margin-left: 5px;
+    background-image: linear-gradient(to left, #6BABDE, #244B70);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    margin-bottom: 0;
+}
+
+.AllSolutionsBox img{
+    width: 100%;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    overflow: hidden;
+}
+
+.AllSolutionsBox:hover  img{
+    transform: scale(1.10);
+    overflow: hidden;
+     transition: 0.2.5s ease-in;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px){
+
+    .AllSolutionsIntro h4{
+        font-size: 23px;
+        }
+
+
+    .AllSolutionsInner{
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+}

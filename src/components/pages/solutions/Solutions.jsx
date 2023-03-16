@@ -1,13 +1,11 @@
 import { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
-import style from './assets/css/Help.module.css'
+import style from './assets/css/Solutions.module.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import QandA from './components/q-and-a/QandA';
-import GettingStarted from './components/getting-started/GettingStarted';
 import { Helmet } from 'react-helmet-async';
+import AllSolutions from './components/all-solutions/AllSolutions';
 
-function Help() {
+function Solutions() {
 
     useEffect(() => {
         AOS.init();
@@ -20,14 +18,14 @@ function Help() {
 
         <>
             <Helmet>
-                <title>Help</title>
+                <title>Solutions</title>
                 <meta name="description" content="Frequently Asked Questions About SmartDocs" />
-                <link rel="canonical" href="/help" />
+                <link rel="canonical" href="/Solutions" />
             </Helmet>
 
 
-            <div className={style.Help}>
-                <QandA />
+            <div className={style.Solutions}>
+        <AllSolutions/>
             </div>
 
         </>
@@ -36,4 +34,4 @@ function Help() {
 }
 
 
-export default Help
+export default Solutions

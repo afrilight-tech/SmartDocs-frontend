@@ -17,7 +17,7 @@ function NotFound() {
             <div className={style.NotFound}>
                 <div className={style.NotFoundBox}>
                     <img src={NotFoundImage} alt="Not Found" />
-                    <h3>Not Fo<span>und!</span></h3>
+                    <h3>404 (Not Found) </h3>
                     <p>The page you requested cannot be found on this server.</p>
                     <ButtonLink text={'See Homepage'} to={'/'} />
                 </div>

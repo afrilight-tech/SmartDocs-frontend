@@ -10,6 +10,8 @@ import AboutUs from './components/pages/about-us/AboutUs';
 import NextToFooter from './components/next-to-footer/NextToFooter';
 import Pricing from './components/pages/pricing/Pricing';
 import Help from './components/pages/help/Help';
+import Solutions from './components/pages/solutions/Solutions';
+import SingleSolution from './components/pages/solutions/components/single/SingleSolution';
 
 function App() {
 
@@ -38,6 +40,15 @@ function App() {
 
         <Route path='/' element={<Home />} />
 
+
+        {/* solutions */}
+        <Route path='/solutions' element={<Solutions />} />
+
+        {/* single solution */}
+        <Route path='/solutions/:link' element={<SingleSolution />} />
+
+
+
         {/* about-us */}
         <Route path='/about-us' element={<AboutUs />} />
 
@@ -47,14 +58,16 @@ function App() {
         <Route path='/contact' element={<Contact />} />
 
         {/* 404 */}
-        <Route path='*' element={<NotFound />} />
+        <Route path='/*' element={<NotFound />} />
+
+        
 
 
         {/* pricing */}
         <Route path='/pricing' element={<Pricing />} />
 
 
-        {/* pricing */}
+        {/* help */}
         <Route path='/help' element={<Help />} />
 
 

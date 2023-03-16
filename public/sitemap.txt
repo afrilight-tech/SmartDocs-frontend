@@ -1,6 +1,7 @@
-https://smatforms.ng/
-https://smatforms.ng/pricing
-https://smatforms.ng/contact
-https://smatforms.ng/about-us
-https://smatforms.ng/mobile-invoicing
-https://smatforms.ng/help
+https://smartdocs.ng/
+https://smartdocs.ng/pricing
+https://smartdocs.ng/contact
+https://smartdocs.ng/about-us
+https://smartdocs.ng/solutions
+https://smartdocs.ng/help
+https://smartdocs.ng/solutions/:link
