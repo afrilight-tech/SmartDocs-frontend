@@ -84,7 +84,7 @@ function Header() {
                         <li className={style.menu_item}><Link activeClass="active" onClick={close}
                             to="/help" className={style.router_link} id={location.pathname === "/help" ? style.active : style.none}>Help</Link></li>
 
-                        <li className={style.menu_item} id={location.pathname === "/contact" ? style.active : style.none}>
+                        <li className={style.menu_item} onClick={close}  id={location.pathname === "/contact" ? style.active : style.none}>
                             <ButtonLink to={'/contact'} text={'Get Started'}/>
                         </li>
                     </ul>
