@@ -84,7 +84,7 @@ function ContactForm() {
         contactFormData.append('job', formData.job)
 
         try {
-            axios.post('http://localhost:8000/contactmail', contactFormData).then((res) => {
+            axios.post('https://smartdocs-api.onrender.com/contactmail', contactFormData).then((res) => {
                 console.log(res.message);
                 setIsSending(false);
                 setFormSent(true);
@@ -128,7 +128,7 @@ function ContactForm() {
 
                     <div className={style.contactDetails}>
                         <p> <FaLocationArrow className={style.contactDetailsIcon} /> 37, Adeniyi Jones Avenue, Ikeja Lagos.</p>
-                        <a href="mailto:demo@smatforms.ng"> <p><FaEnvelope className={style.contactDetailsIcon} />demo@smatforms.ng.</p></a>
+                        <a href="mailto:demo@smartdocs.com"> <p><FaEnvelope className={style.contactDetailsIcon} />demo@smartdocs.com.</p></a>
                         <p><FaPhone className={style.contactDetailsIcon} /> <a href="tel:+234-8084128802">+234-8084128802 </a></p>
                     </div>
 
@@ -227,7 +227,7 @@ function ContactForm() {
 
                         {/* Recaptcha */}
                         <div className={style.form_item}>
-                            <ReCAPTCHA className={style.reCaptcha} sitekey="6Lcii2wkAAAAAPTEXfS5QB4QGTge_S2hLXwOA9bR" onChange={onCaptchaChange} />
+                            <ReCAPTCHA className={style.reCaptcha} sitekey="6LdyTAwlAAAAAFiZB8l2x6X82JtyJc8OQ3CZFfXb" onChange={onCaptchaChange} />
                             {errorMessage && <p className={style.captchaError}>{errorMessage}</p>}
                         </div>
 

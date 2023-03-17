@@ -29,7 +29,7 @@ function Footer() {
                         <Link to={'/'}><li >Home</li></Link>
                         <Link to={'/help'}><li >Help</li></Link>
                         <Link to={'/pricing'}><li >Pricing</li></Link>
-                        <Link to={'/mobile-invoicing'}><li >Solutions</li></Link>
+                        <Link to={'/solutions'}><li >Solutions</li></Link>
 
                     </ul>
                 </div>
@@ -46,7 +46,7 @@ function Footer() {
                 <div className={style.footer_box}  >
                     <h3>Contact Details</h3>
                     <p > <FaLocationArrow className={style.footerIcon} /> 37, Adeniyi Jones Avenue, Ikeja Lagos</p>
-                    <a href="mailto: demo@smatforms.ng"> <p ><FaEnvelope className={style.footerIcon} /> demo@smatforms.ng.</p></a>
+                    <a href="mailto: demo@smartdocs.com"> <p ><FaEnvelope className={style.footerIcon} /> demo@smartdocs.com.</p></a>
                     <p ><FaPhone className={style.footerIcon} /> <a href="tel:+234-8084128802">+234-8084128802 </a></p>
                 </div>
 
